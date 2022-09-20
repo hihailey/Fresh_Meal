@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+
+/*font import using otf file*/
+@font-face {
+  font-family: lowanOldStyle;
+  src: url("fonts/lowan-font.otf") format("opentype");
+}
+
+html,
+body {
+  margin: 0;
+}
+
+body {
+  font-family: lowanOldStyle, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p,
+h1 {
+  margin: 0;
+}
+
+.highlight {
+  color: #905e48;
+}
+
+.home {
+  background-image: url("./img/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.menu {
+  background: url("./img/sub_background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+  height: 150h;
+}
+
+.orange {
+  color: #ff9100;
+}
