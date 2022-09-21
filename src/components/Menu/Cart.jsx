@@ -12,7 +12,6 @@ export default function Cart() {
 
   useEffect(() => {
     setCartItem(cartItem);
-    console.log("SET", cartItem);
     // Sum of quantity of all items in cart
     if (cartItem.reduce((n, { quantity }) => n + quantity, 0) > 0) {
       setIsEmpty(false);
