@@ -5,7 +5,6 @@ import { CartContainer, Title, EmptyCart, CartWrapper } from "./Menu.styled";
 import { useAtom } from "jotai";
 import { cartItemAtom } from "../../atom/menu";
 import cart from "../../img/cart.png";
-import { motion } from "framer-motion";
 
 export default function Cart() {
   const [cartItem, setCartItem] = useAtom(cartItemAtom);
@@ -32,7 +31,7 @@ export default function Cart() {
       <Title>My Cart</Title>
       {isEmpty ? (
         <EmptyCart>
-          <img src={cart}></img>
+          <img alt="empty cart" src={cart}></img>
           <h1>Your cart is empty!</h1>
           <p>Looks like you have not added anything to your cart.</p>
         </EmptyCart>

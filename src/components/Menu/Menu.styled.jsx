@@ -135,11 +135,13 @@ export const ItemGrid = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
+  height: fit-content;
 `;
 
 export const CartContainer = styled.div`
   background: rgb(255, 255, 255, 0.6);
   position: sticky;
+  top: 0;
   border-radius: 24px;
   display: flex;
   flex-direction: column;
