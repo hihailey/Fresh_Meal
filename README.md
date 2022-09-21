@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+## Sultans Technical Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🌿Fresh Meal Plan is a healthy meal plan subscription company.
 
-## Available Scripts
+Create a 2 step wizard that allows a consumer to "Sign-Up" for a meal plan.
 
-In the project directory, you can run:
+## Setup
 
-### `yarn start`
+To run this project, install it locally using yarn:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+$ cd ../Fresh_Meal-main
+$ yarn install
+$ yarn start
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## What I Use
 
-### `yarn test`
+- Use CSS & styled-components for the design
+- Use [Jotai](https://jotai.org/) to manage the global state for the cart
+- Use [Motion-Framer ](https://www.framer.com/motion/) to implement animation
+- Use [react-fast-marquee](https://www.npmjs.com/package/react-fast-marquee) to build slide bar on the main page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to Start
 
-### `yarn build`
+**Step 1️⃣**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Click the Get Started Button
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Step 2️⃣**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Enter the email address and Zip Code ( Zip code length must be 5, Email should be valid)
 
-### `yarn eject`
+**Step 3️⃣**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Add items to a cart
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Let's go to FRESH MEAL PLAN](https://hailey-fresh-meal.herokuapp.com/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Built With
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![Styled-Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white) ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
