@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const TextWrapper = styled.div`
   h1 {
-    font-size: 60px;
+    font-size: 8vh;
     color: #1b4332;
     text-align: center;
   }
@@ -53,8 +53,13 @@ export const SlideContainer = styled.div`
   color: white;
   align-items: center;
   gap: 20px;
-  font-size: 24px;
-  margin: 5vw;
+  font-size: 2.5vh;
+  margin: 0 5vw;
+  height: 10vh;
+  img {
+    height: 100%;
+    width: 100%;
+  }
 `;
 
 export const FormContainer = styled.div`
@@ -64,7 +69,7 @@ export const FormContainer = styled.div`
   align-items: center;
   border-radius: 20px;
   padding: 20px;
-  gap: 30px;
+  gap: 20px;
   width: 35vw;
   min-width: 500px;
   justify-content: center;
@@ -73,17 +78,19 @@ export const FormContainer = styled.div`
   h1 {
     font-size: 40px;
     color: #2d6a4f;
+    text-align: center;
   }
 
   p {
     font-family: Inter;
     font-size: 14px;
+    text-align: center;
   }
 
   div {
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 12px;
   }
 
   div:first-of-type {

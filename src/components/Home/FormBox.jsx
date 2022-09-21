@@ -94,7 +94,6 @@ const CheckBtn = styled.button`
   padding: 12px;
   border-radius: 20px;
   font-size: 22px;
-  margin: 12px;
   cursor: pointer;
   &:hover {
     background-color: #905e48;
