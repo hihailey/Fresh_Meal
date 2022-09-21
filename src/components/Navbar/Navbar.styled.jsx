@@ -7,7 +7,7 @@ export const Nav = styled.nav`
   display: flex;
   z-index: 12;
   justify-content: space-around;
-  margin-left: -100px;
+  width: 100%;
 `;
 
 export const NavLink = styled(Link)`
@@ -18,6 +18,8 @@ export const NavLink = styled(Link)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
+  text-align: center;
+  justify-content: center;
   &:hover {
     color: #2d6a4f;
     transition: 0.4s;
@@ -25,17 +27,14 @@ export const NavLink = styled(Link)`
 `;
 
 export const NavMenu = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  justify-content: space-evenly;
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1.3fr 1fr 1fr 1fr;
 `;
 
 export const LogoLink = styled(Link)`
   margin: 0px 20px;
+  display: flex;
+  justify-content: center;
 `;
 
 export const SubNav = styled.nav`

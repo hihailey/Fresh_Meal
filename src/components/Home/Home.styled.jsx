@@ -51,6 +51,9 @@ export const SlideWrapper = styled.div`
   padding: 12px 0px;
   height: 12vh;
   display: flex;
+  @media only screen and (max-height: 820px) {
+    height: 8vh;
+  }
 `;
 
 export const SlideContainer = styled.div`
@@ -64,6 +67,13 @@ export const SlideContainer = styled.div`
   img {
     height: 100%;
     width: 100%;
+  }
+
+  @media only screen and (max-height: 820px) {
+    height: 6vh;
+    p {
+      font-size: 12px;
+    }
   }
 `;
 
@@ -79,7 +89,6 @@ export const FormContainer = styled.div`
   min-width: 500px;
   justify-content: center;
   margin: 10px;
-
   h1 {
     font-size: 40px;
     color: #2d6a4f;
@@ -89,7 +98,6 @@ export const FormContainer = styled.div`
       font-size: 28px;
     }
   }
-
   p {
     font-family: Inter;
     font-size: 14px;
@@ -98,13 +106,11 @@ export const FormContainer = styled.div`
       font-size: 12px;
     }
   }
-
   div {
     display: flex;
     flex-direction: column;
     gap: 12px;
   }
-
   div:first-of-type {
     display: flex;
     flex-direction: row;
