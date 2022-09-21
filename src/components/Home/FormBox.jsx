@@ -99,6 +99,11 @@ const CheckBtn = styled.button`
     background-color: #905e48;
     transition: 0.4s;
   }
+  @media only screen and (max-height: 600px) {
+    padding: 8px;
+    font-size: 16px;
+    width: 180px;
+  }
 `;
 
 const Back = styled.img`

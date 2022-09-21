@@ -7,7 +7,7 @@ export const Nav = styled.nav`
   display: flex;
   z-index: 12;
   justify-content: space-around;
-  margin-left: -80px;
+  margin-left: -100px;
 `;
 
 export const NavLink = styled(Link)`
@@ -18,7 +18,6 @@ export const NavLink = styled(Link)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
-  min-width: 100px;
   &:hover {
     color: #2d6a4f;
     transition: 0.4s;

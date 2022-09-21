@@ -36,6 +36,11 @@ export const GreenBtn = styled.button`
     background-color: #905e48;
     transition: 0.4s;
   }
+  @media only screen and (max-height: 600px) {
+    padding: 8px;
+    font-size: 16px;
+    width: 180px;
+  }
 `;
 
 export const SlideWrapper = styled.div`
@@ -79,12 +84,19 @@ export const FormContainer = styled.div`
     font-size: 40px;
     color: #2d6a4f;
     text-align: center;
+
+    @media only screen and (max-height: 600px) {
+      font-size: 28px;
+    }
   }
 
   p {
     font-family: Inter;
     font-size: 14px;
     text-align: center;
+    @media only screen and (max-height: 600px) {
+      font-size: 12px;
+    }
   }
 
   div {
@@ -111,6 +123,17 @@ export const FormInput = styled.input`
   ::-webkit-input-placeholder {
     font-size: 14px;
     font-family: Inter;
+  }
+
+  @media only screen and (max-height: 600px) {
+    padding: 12px 10px;
+    font-size: 12px;
+    width: 10vw;
+
+    ::-webkit-input-placeholder {
+      font-size: 12px;
+      font-family: Inter;
+    }
   }
 `;
 
