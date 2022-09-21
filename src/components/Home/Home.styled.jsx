@@ -51,8 +51,8 @@ export const SlideWrapper = styled.div`
   padding: 12px 0px;
   height: 12vh;
   display: flex;
-  @media only screen and (max-height: 820px) {
-    height: 8vh;
+  @media only screen and (max-height: 760px) {
+    height: 10vh;
   }
 `;
 
@@ -69,10 +69,10 @@ export const SlideContainer = styled.div`
     width: 100%;
   }
 
-  @media only screen and (max-height: 820px) {
+  @media only screen and (max-height: 760px) {
     height: 6vh;
     p {
-      font-size: 12px;
+      font-size: 14px;
     }
   }
 `;
