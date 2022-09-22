@@ -14,10 +14,10 @@ export default function FormBox({ onClickFormClose }) {
 
   //Validation for the user
   const SignUpSchema = Yup.object().shape({
-    email: Yup.string().email().required("Email is required"),
+    email: Yup.string().email().required("email is required"),
     postal: Yup.string()
-      .length(5, "Zip code length must be 5 ")
-      .matches(/^[0-9]{5}/)
+      .length(5, "zip code length must be 5 ")
+      .matches(/^[0-9]{5}/, "zip code must be number")
       .required("Zip code is required"),
   });
 

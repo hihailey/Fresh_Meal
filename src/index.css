@@ -27,7 +27,7 @@ h1 {
 }
 
 .home {
-  background-image: url("./img/background.png");
+  background-image: url("./img/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,7 +35,7 @@ h1 {
 }
 
 .menu {
-  background: url("./img/sub_background.png");
+  background: url("./img/sub_background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
