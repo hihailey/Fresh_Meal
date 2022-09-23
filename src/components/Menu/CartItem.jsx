@@ -102,20 +102,22 @@ const ItemContainer = styled.div`
   min-width: 50px;
   align-items: center;
   background-color: #e4f0eb;
-  padding: 10px 25px 10px 0px;
+  padding: 0px 25px 0px 0px;
   width: -webkit-fill-available;
   gap: 10px;
   img {
     width: 100px;
   }
   h1 {
-    font-size: 16px;
+    font-size: 14px;
     width: 10vw;
   }
 
   p {
     color: black;
     font-family: inter;
+    min-width: max-content;
+    font-size: 14px;
   }
 `;
 

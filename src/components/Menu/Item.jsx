@@ -110,6 +110,7 @@ const ItemContainer = styled.div`
     color: #959fa8;
     text-align: center;
     margin: 0px 0px 10px 0;
+    font-size: 14px;
   }
 
   p:last-of-type {
@@ -122,14 +123,18 @@ const ItemContainer = styled.div`
   &:hover {
     border: 4px solid #2d6a4f;
     transition: 0s;
-    color: black;
+
+    p:first-of-type {
+      color: #2d6a4f;
+      transition: 0.4s;
+    }
   }
 
   div:first-of-type {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 4px;
   }
 
   div:last-of-type {
