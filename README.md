@@ -1,4 +1,4 @@
-## Sultans Technical Assignment
+## Project Description
 
 🌿Fresh Meal Plan is a healthy meal plan subscription company.
 
